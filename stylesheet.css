@@ -1,0 +1,26 @@
+header {
+    display: block;
+}
+.marquee {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.marquee #p {
+    white-space:nowrap;
+    margin-right: 1000px;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+}
+.logo_container {
+    display: block;
+    flex-direction: row;
+}
+.logo_image {
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
