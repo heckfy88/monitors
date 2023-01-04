@@ -4,7 +4,7 @@ $(function () {
         css3easing: 'linear',
         easing: 'linear',
         delayBeforeStart: 0,
-        direction: 'left',
+        direction: 'right',
         duplicated: false,
         duration: 10000,
         gap: 1,
