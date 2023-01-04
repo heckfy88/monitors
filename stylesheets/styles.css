@@ -1,0 +1,44 @@
+.content_grid {
+    display: grid;
+    grid-template:
+            "address_container slider_container" 1fr
+            "date_container slider_container" 1fr
+            "time_container slider_container" 1.5fr
+            "rules_container slider_container" 6.5fr;
+    grid-template-columns: 25% 85%;
+}
+
+.address_container {
+    grid-area: address_container;
+    text-align: center;
+
+}
+#address {
+    font-size: 3em;
+}
+
+.date_container {
+    grid-area: date_container;
+    text-align: center;
+}
+
+#date {
+    font-size: 3em;
+}
+
+.time_container {
+    grid-area: time_container;
+    text-align: center;
+}
+
+#time {
+    font-size: 5em;
+}
+
+.rules_container {
+    grid-area: rules_container;
+}
+
+.slider_container {
+    grid-area: slider_container;
+}
